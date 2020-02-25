@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+.clickable:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+table {
+  border: 1px solid #eee;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+.table-responsive > th,
+.table-responsive > td {
+  color: #999;
+  border: 1px solid #eee;
+  padding: 15px 35px;
+}
+.table-responsive > th {
+  color: white;
+  background-color: #55b3c5;
+  text-transform: uppercase;
+}
+.table-responsive > tr:hover {
+  background-color: #f4f4f4;
+}
+.table-responsive > td:hover {
+  color: #555;
+}
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+  padding: 5px;
+}
+li:hover,
+li > a:hover {
+  cursor: pointer;
+  color: white;
+}
